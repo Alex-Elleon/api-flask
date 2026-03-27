@@ -4,7 +4,7 @@ from db import get_connection
 
 app = Flask(__name__)
 CORS(app)
-
+ 
 @app.route('/pacientes', methods=['GET'])
 def get_pacientes():
     try:
